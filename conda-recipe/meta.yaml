@@ -1,0 +1,18 @@
+package:
+  name: sql_novice_survey
+  version: "0.0.1"
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+    - commonmark
+    - pandocfilters
+    - pyyaml
+
+about:
+  home: http://swcarpentry.github.io/sql-novice-survey/
+  license: CC BY 4.0
