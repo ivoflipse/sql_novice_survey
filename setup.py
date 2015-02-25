@@ -12,7 +12,7 @@ setup(
     package_dir={"sql_novice_survey":"."},
     #package_data={"sql_novice_survey":["*.dll","*.pyd"]},
     zip_safe=False,
-    requiers=["commonmark", "pandocfilters", "pyyaml"],
+    requires=["commonmark", "pandocfilters", "pyyaml"],
     entry_points={
         'console_scripts': [
             'sql_novice_survey = sql_novice_survey.main:main'
